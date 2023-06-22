@@ -28,14 +28,13 @@ eleventyNavigation:
 
 <section id="cs-contact">
   <div class="cs-container">
-    
-    <!--
-    <form id="cs-form" name="Contact Form" method="post">
+    <form id="cs-form" name="Contact Form" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+      <input name="bot-field" style="display: none;">
       <div class="cs-content">
         <span class="cs-topper">Contact</span>
         <h2 class="cs-title">Get in Touch</h2>
         <p class="cs-text">
-                    Don't be shy! I'm very friendly and would love to discuss your potential new site!
+                  Let's chat! I'm very friendly and would love to discuss your potential new site!
                 </p>
       </div>
       <label>
@@ -60,14 +59,9 @@ eleventyNavigation:
       </label>
       <button class="cs-button-solid" type="submit">Submit Message</button>
     </form>
-  -->
+
     <div class="cs-content" style="color:black">
       <!--Email-->
-      <span class="cs-header" style="color:black; text-align: center; font-weight: bold">Email</span>
-      <a class="cs-link" href="mailto:creamerprojects@gmail.com" style="color:black; text-align: center; font-weight: bold";">creamerprojects@gmail.com</a>
-      <!--Address-->
-      <span class="cs-header" style="color:black; text-align: center; font-weight: bold"">Address</span>
-      <a class="cs-link" href="" style="color:black; text-align: center; font-weight: bold"">Moncton, New Brunswick, <span class="cs-block" style="color:black; text-align: center; font-weight: bold"">Canada</span></a>
     </div>
       <!-- Background Image-->
       {% image './src/images/skyscraper.jpg', 'building', '', 'lazy'%}
