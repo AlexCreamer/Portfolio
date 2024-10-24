@@ -1,5 +1,7 @@
 # Starter Kit v4 - Eleventy Blog + Netlify CMS
 
+Site: https://codecrafted.ca
+
 ## Table of Contents
 
 - [Overview](#overview)
